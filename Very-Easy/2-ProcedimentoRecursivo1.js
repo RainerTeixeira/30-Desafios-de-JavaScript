@@ -10,10 +10,6 @@ function chunks(num) {
 }
 
 
-
-
-
-
 console.log(chunks(4));
 console.log(chunks(1));
 console.log(chunks(8));
