@@ -1,15 +1,8 @@
+
 function raizQuadrada(num) {
-    const str = num.toString()
-    let resultado = ""
-
-     for (let i = 0; i < str.length; i++) {
-       resultado += Math.pow(Number(str)[i],2) // resultado = resultado + ...alguma coisa 
-    }
-    
-}
-
-
-
+    const digitoArray = num.toString().split('')
+    return Number(digitoArray.map(numero => numero ** 2).join(''))
+  }
 
 console.log(raizQuadrada(3514))  //925116
 console.log(raizQuadrada(94571))  //81625491
