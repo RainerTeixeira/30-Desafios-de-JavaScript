@@ -7,7 +7,7 @@ function invertepalavra(word) {
   }
 
 
-console.log(invertepalavra('lorem impsum dolorec sec avanti'))   // merol muspi 
-console.log(invertepalavra('this is an apple'))                             // o 
-console.log(invertepalavra('may the force be with your'))       // y
-console.log(invertepalavra('it s over nine thousand'))      // v 
+console.log(invertepalavra('lorem impsum dolorec sec avanti'))     // itnava ces cerolod muspmi merol 
+console.log(invertepalavra('this is an apple'))                   //elppa na si siht
+console.log(invertepalavra('may the force be with your'))        // ruoy htiw eb ecrof eht yam
+console.log(invertepalavra('it s over nine thousand'))          // dnasuoht enin revo s ti 
