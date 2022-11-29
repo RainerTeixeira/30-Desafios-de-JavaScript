@@ -7,10 +7,6 @@ function ordenarstring(nomeCompleto) {  const nomes = nomeCompleto.split(' ')
   return `${nomes[nomes.length - 1].toUpperCase()},${initials}`
 }
 
-
-
-
-
 console.log(ordenarstring('isac Larrubia Ferreira Pontes'))
 console.log(ordenarstring('Jonh Ronaldo Reuel Tolkien'))
 console.log(ordenarstring('Chistoper James Paolini'))
