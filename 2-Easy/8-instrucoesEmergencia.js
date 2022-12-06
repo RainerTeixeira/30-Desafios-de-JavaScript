@@ -1,3 +1,7 @@
+function compararContagem(count, index, array) {
+    return index !== 0 ? count === array[index - 1] : true
+}
+
 function verificarLetra(str) {
     const contagemCaracter = {}
 
@@ -5,7 +9,7 @@ function verificarLetra(str) {
         contagemCaracter[str[i]] = contagemCaracter[str[i]] ? contagemCaracter[str[i]] + 1 : 1
 
     }
-    return Object.values(contagemCaracter).every((count, index, array) => index !== 0 ? count === array[index - 1] : true)
+    return Object.values(contagemCaracter).every(compararContagem)
 }
 
 console.log(verificarLetra('this is thee')) // verdadeiro
