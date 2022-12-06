@@ -12,3 +12,4 @@ console.log(verificarLetra('this is thee')) // verdadeiro
 console.log(verificarLetra('ssd')) // falso
 console.log(verificarLetra('lorem ipsum')) // falso
 console.log(verificarLetra('QQwweerrttyy')) // verdadeiro
+console.log(verificarLetra('Rainer Teixeira')) // falso
