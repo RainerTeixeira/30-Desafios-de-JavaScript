@@ -39,12 +39,12 @@ DOMINE A LÓGICA DE PROGRAMAÇÃO
 - 9 – Biblioteca Interplanetária
 • Strings
 
-- 10 – Código de Identificação de Nave
+- 10 – Procedimento Recursivo II
+• Recursão• Matemática
+
+- 11 – Código de Identificação de Nave
 • Strings
 • Matemática
-
-- 11 – Procedimento Recursivo II
-• Recursão• Matemática
 
 - 12 – Intervalo de Coordenadas
 ﻿• Arrays
