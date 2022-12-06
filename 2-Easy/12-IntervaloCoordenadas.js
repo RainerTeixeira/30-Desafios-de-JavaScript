@@ -1,7 +1,7 @@
 function parMenor(par) {
     const result = []
 
-    for (let i = 0; i <= par.length[0]; i++) {
+    for (let i = 0; i <= par[0]; i++) {
         for (let j = 0; j <= par[1]; j++) {
             result.push([i, j])
         }
