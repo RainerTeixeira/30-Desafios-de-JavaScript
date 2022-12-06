@@ -6,7 +6,8 @@ function verificarLetra(str) {
     const contagemCaracter = {}
 
     for (let i = 0; i < str.length; i++) {
-        contagemCaracter[str[i]] = contagemCaracter[str[i]] ? contagemCaracter[str[i]] + 1 : 1
+        const letraAtual = str[i]
+        contagemCaracter[letraAtual] = contagemCaracter[letraAtual] ? contagemCaracter[letraAtual] + 1 : 1
     }
     return Object.values(contagemCaracter).every(compararContagem)
 }
