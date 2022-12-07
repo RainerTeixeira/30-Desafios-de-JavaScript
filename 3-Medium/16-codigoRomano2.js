@@ -2,7 +2,7 @@ function decifrar(str, chave) {
     const caracteresArray = str.split('')
     const AjustaChave = chave % 26
 
-    const codesArray = caracteresArray.map(char => {
+    const CodigoArray = caracteresArray.map(char => {
         const CodigoAtual = char.charCodeAt(0)
 
         if (CodigoAtual - AjustaChave < 65 && CodigoAtual >= 65 && CodigoAtual <= 90) {
@@ -16,7 +16,7 @@ function decifrar(str, chave) {
         return CodigoAtual
     })
 
-    return codesArray.map(code => String.fromCharCode(code - AjustaChave)).join('')
+    return CodigoArray.map(code => String.fromCharCode(code - AjustaChave)).join('')
 }
 
 console.log(decifrar('Vguvg', 2))
